@@ -1,0 +1,32 @@
+﻿@model IEnumerable<BookStore.Models.BookWeb>
+
+@{
+    ViewBag.Title = "BookRegister";
+}
+
+<h2>Book Register</h2>
+
+<h3>Book data register</h3>
+<form id="IdRegisterFormer">
+    ISBN:<br>
+    <input type="number" name="ISBN" value="00000000000">
+    <br>
+    Title:<br>
+    <input type="text" name="title" value="">
+    <br>
+    Author:<br>
+    <input type="text" name="author" value=""/>
+    <br>
+    Publishing:<br>
+    <input type="text" name="publishing" value=""/>
+    <br>
+    Publish number:<br>
+    <input type="number" name="publishNumber" value=""/>
+    <br>
+    Amount in stock:<br>
+    <input type="number" name="amountStock" value=""/>
+    <br />
+    <br />
+
+    <input type="submit" name="submit" value="Register">
+</form>
