@@ -89,7 +89,15 @@ namespace BookStore.Controllers
         public ActionResult BookRegister()
         {
             ViewBag.Message = "Your screen of Book Register ";
+
             return View();
+        }
+
+        [HttpPost]
+        public string ShowSubmit()
+        {
+            var test = Request.Form["ISBN"];
+            return null;
         }
     }
 }
