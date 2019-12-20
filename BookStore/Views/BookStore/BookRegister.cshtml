@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "BookRegister";
 }
 
@@ -8,8 +7,8 @@
 <h3>Book data register</h3>
 <form id="IdRegisterFormer" method="post" >
     ISBN:<br>
-    <input type="text" name="ISBN" value="00000000000">
-    <!--<br>
+    <input type="text" name="ISBN" value="00000000000" asp-for="model.">
+    <br>
     Title:<br>
     <input type="text" name="title" value=""/>
     <br>
@@ -20,12 +19,12 @@
     <input type="text" name="publishing" value="" />
     <br>
     Publish number:<br>
-    <input type="number" name="publishNumber" value="" />
+    <input type="number" name="PublishingNumber" value="" />
     <br>
     Amount in stock:<br>
-    <input type="number" name="amountStock" value="" />
+    <input type="number" name="AmountStock" value="" />
     <br />
-    <br />-->
+    <br />
 
     <input type="submit" name="submit" value="Register"/>
 

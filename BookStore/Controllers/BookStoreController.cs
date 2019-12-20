@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BookStore.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -92,11 +93,12 @@ namespace BookStore.Controllers
 
             return View();
         }
-
+        
         [HttpPost]
-        public string ShowSubmit()
+        public string ShowSubmit(BookModel bk)
         {
-            var test = Request.Form["ISBN"];
+            //if (this.ModelState.IsValid)
+            
             return null;
         }
     }

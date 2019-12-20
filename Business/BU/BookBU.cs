@@ -7,5 +7,7 @@ namespace Business.BU
 {
     public class BookBU
     {
+        string connectionStringTest = "";
+
     }
 }
