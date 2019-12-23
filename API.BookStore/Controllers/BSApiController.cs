@@ -7,7 +7,7 @@ using System.Web.Http;
 
 namespace API.BookStore.Controllers
 {
-    public class BookAPIController : ApiController
+    public class BSApiController : ApiController
     {
         // GET: api/BookAPI
         public IEnumerable<string> Get()

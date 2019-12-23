@@ -128,6 +128,7 @@
     <Compile Include="Models\BookModel.cs" />
     <Compile Include="Models\BookTo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\BSApiService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />

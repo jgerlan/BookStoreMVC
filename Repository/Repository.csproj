@@ -71,8 +71,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConnectionFactory.cs" />
-    <Compile Include="DAO\BookDAO.cs" />
-    <Compile Include="DAO\BookDAOImpl.cs" />
+    <Compile Include="DAO\BookStoreDAO.cs" />
+    <Compile Include="DAO\IbsDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

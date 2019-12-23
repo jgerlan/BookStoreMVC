@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Business.BU
+namespace BookStore.Services
 {
-    public class BookBU
+    public class BSApiService
     {
-        string connectionStringTest = "";
-
     }
 }

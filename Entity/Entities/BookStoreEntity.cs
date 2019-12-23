@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Entity.Entities
 {
-    public class BookEntity
+    public class BookStoreEntity
     {
         public long Id { get; set; }
         [Required]
